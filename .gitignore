@@ -1,0 +1,22 @@
+# Virtual Environment
+mssa_env/
+
+# Dataset
+data/
+
+# Trained Models
+outputs/models/
+
+# Generated Results
+outputs/xai/
+outputs/final_results/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+commands.run.txt
+eeg.png

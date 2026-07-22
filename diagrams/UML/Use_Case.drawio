@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="X9TA-RbVN7eybG8VDGOf">
+    <mxGraphModel dx="1212" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Neurologist" vertex="1">
+          <mxGeometry height="60" width="30" x="690" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1;fontSize=14;" value="MSSA-Net Seizure Detection System" vertex="1">
+          <mxGeometry height="480" width="320" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Upload EEG Signal&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="180" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Generate Wavelet Scalogram&#xa;&#xa;" vertex="1">
+          <mxGeometry height="50" width="180" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Preprocess EEG Data&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="180" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Perform MSSA-Net Analysis" vertex="1">
+          <mxGeometry height="50" width="180" x="305" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Classify Seizure / Non-Seizure&#xa;&#xa;" vertex="1">
+          <mxGeometry height="50" width="180" x="310" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;View Prediction Results&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="180" x="310" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Generate Report&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHwX3sy7C76pnRjdFjX3-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="328" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JHwX3sy7C76pnRjdFjX3-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-20" edge="1" parent="1" source="JHwX3sy7C76pnRjdFjX3-15" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="505" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHwX3sy7C76pnRjdFjX3-21" edge="1" parent="1" source="JHwX3sy7C76pnRjdFjX3-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="455" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
